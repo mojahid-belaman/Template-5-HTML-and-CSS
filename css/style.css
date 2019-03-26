@@ -1,0 +1,262 @@
+body
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.clearfix{clear: both}
+/* Start Nav */
+.nav
+{
+    background: #000000;
+    overflow: hidden;
+    color: #ffffff;
+}
+.nav .links
+{
+    float: left;
+}
+.nav .links ul
+{
+    list-style-type: none;
+    padding: 0;
+}
+.nav .links ul li
+{
+    display: inline;
+    padding: 15px 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.nav .links ul li:hover
+{
+    background: #CCCCCC;
+    color: #000000
+}
+.nav .search
+{
+    float: right;
+}
+.nav .search i
+{
+    padding: 17px 20px;
+    cursor: pointer;
+}
+.nav .search i:hover
+{
+    background: #F44336;
+}
+/* Start Slider */
+.slider
+{
+    background-image: url('../image/1.jpg');
+    background-size: cover;
+    height: 700px;
+    position: relative;
+}
+.slider .info
+{
+    text-align: center;
+    color: #ffffff;
+    position: absolute;
+    bottom: 10%;
+    left: 40%;
+}
+.slider .info h3{margin: 0;}
+.slider .info p{margin-top: 20px;}
+/* End Slider */
+/* Start Content */
+.content .info
+{
+    text-align: center;
+    padding-top: 50px;
+}
+.content .info h2
+{
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+.content .info span {color: #b4b1b1; font-style: italic;}
+.content .info p
+{
+    text-align: justify;
+    width: 67%;
+    margin: 20px auto;
+    line-height: 23px;
+}
+.content .box
+{
+    width: 100%;
+    width: 70%;
+    margin: auto;
+}
+.content .box .person
+{
+    width: 32.33333%;
+    text-align: center;
+    float: left;
+    padding-bottom: 50px;
+}
+.content .box .person span {display: block;margin: 15px 0}
+.content .box .person img {width: 154px; height: 154px;}
+/* End Content */
+/* Start Dates */
+.date
+{
+    background: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 50px 0;
+}
+.date h2
+{
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.date span
+{
+    font-style: italic;
+    color: #8d8c8c;
+}
+.date .month
+{
+    background: #ffffff;
+    color: #8d8c8c;
+    width: 61%;
+    margin: 30px auto;
+    text-align: left;
+    overflow: hidden;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-bottom: 15px;
+}
+.date .month span
+{
+    margin-left: 20px;
+    background: #F44336;
+    color: #ffffff;
+    padding: 2px 5px;
+}
+.date .month span:last-of-type
+{
+    background: #000000;
+    color: #ffffff;
+    height: 19px;
+    width: 11px;
+    border-radius: 15px;
+    float: right;
+    margin: 0 15px;
+}
+.date .month hr {
+    margin: 15px 0;
+    background-color: #CCCCCC;
+    height: 1px;
+    border: 0;
+}
+.date .box{overflow: hidden;}
+.date .box .info
+{
+    background: #ffffff;
+    width: 20%;
+    color: #000000;
+    float: left;
+    margin-right: 15px;
+    position: relative;
+    left: 19%;
+    text-align: left;
+}
+.date .box .info img {width: 100%;}
+.date .box .info h3{padding-left: 10px;}
+.date .box .info span{font-style: normal;padding-left: 10px;}
+.date .box .info p{padding-left: 10px;}
+.date .box .info button{background: #000000;color: #ffffff;border: none;outline: none;padding: 10px 15px;margin: 10px 10px}
+.date .box .info button:hover{background: #CCCCCC;color: #000000;}
+/* End Dates */
+/* Start Contact */
+.contact{padding: 50px 0;overflow: hidden;padding-bottom: 150px;}
+.contact .contact-me{text-align: center;}
+.contact .contact-me h2
+{
+    font-size: 35px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.contact .contact-me span
+{
+    color: #808080;
+    display: block;
+}
+.contact .contact-me .data
+{
+    float: left;
+    width: 50%;
+    position: relative;
+    padding: 40px 0;
+}
+.contact .contact-me .data i
+{
+    position: absolute;
+    left: 35%;
+}
+.contact .contact-me .data span
+{
+    display: inline;
+    color: #000000;
+    position: absolute;
+    left: 40%;
+}
+.contact .contact-me .form
+{
+    float: right;
+    width: 50%;
+    padding: 40px 0;
+    position: relative;
+}
+.contact .contact-me .form form{position: relative;}
+.contact .contact-me .form form input[type="text"]
+{
+    padding: 10px 0 10px 5px;
+    margin-left: 10px;
+    position: relative;
+    left: -22%;
+}
+.contact .contact-me .form form input[type="text"]:last-of-type{
+    position: absolute;
+    top: 125%;
+    left: 0.5%;
+    width: 55%;
+    margin-left: 0;
+}
+.contact .contact-me .form form button
+{
+    background: #000000;
+    color: #ffffff;
+    padding: 10px 20px;
+    position: absolute;
+    top: 245%;
+    left: 45%;
+    border: none;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.contact .contact-me .form form button:hover{background: #CCCCCC;color: #000000;}
+/* End Contact */
+/* Start Footer */
+.footer .location img{width: 100%;}
+.footer .foot
+{
+    padding: 50px 0;
+    text-align: center;
+    font-size: 30px;
+    color: #979696
+}
+.footer .foot i:hover{color: #707070}
+.footer .foot span
+{
+    display: block;
+    margin-top: 30px;
+    font-size: 15px;
+}
+.footer .foot span a{color: #979696}
+.footer .foot span a:hover{color: #707070}
+.footer .foot span.logo{text-decoration: underline;display: inline;}
+/* End Footer */
